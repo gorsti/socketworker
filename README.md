@@ -7,7 +7,7 @@ Just run from a local webserver - 'brew install nginx' perhaps?
 
 This example uses SharedWorker, although not believed  to be necessary for the functionality implemented thus far ;-)
 
-Any code in this repo that actually does run, only does so in Chrome, although shared webworkers are supported in Opera and Safari too, however caniuse.com shows limited cross-browser (specifically no  iOS / Android) support, so you should probably be using dedicated workers for now...
+Any code in this repo that actually does run, only does so in Chrome, although shared webworkers are supported in Opera and Safari too, however caniuse.com shows limited cross-browser (specifically no  iOS / Android / Firefox / IE) support as of Dec '13, so you should probably be using dedicated workers for now...
 
 http://caniuse.com/#feat=webworkers
 vs
